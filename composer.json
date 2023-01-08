@@ -1,0 +1,10 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "php": "^8.2.0",
+    "tracy/tracy": "^2.6.0"
+  },
+  "scripts": {
+    "serve": "php -S localhost:8000 src/index.php router=src/routes.php"
+  }
+}
